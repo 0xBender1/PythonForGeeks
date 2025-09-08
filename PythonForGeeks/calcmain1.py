@@ -11,9 +11,7 @@ def my_main():
     print("x = {}, y = {}".format(x, y))
     print("sum is {}".format(sum))
     print("diff is {}".format(diff))
-
-    print(globals())
-
+    
 """Этот фрагмент выполняется только в случает, если специальная переменная \
     '__name__' утсановлена в качетсве главной"""
 
